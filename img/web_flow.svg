@@ -1,0 +1,32 @@
+<svg width="980" height="300" viewBox="0 0 980 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="90" width="230" height="120" rx="14" fill="#eef2ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="175" y="130" text-anchor="middle" font-size="24" font-weight="700" fill="#1e3a8a">Client</text>
+  <text x="175" y="160" text-anchor="middle" font-size="16" fill="#1f2937">Browser / Frontend</text>
+
+  <rect x="375" y="70" width="230" height="160" rx="14" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
+  <text x="490" y="112" text-anchor="middle" font-size="24" font-weight="700" fill="#0f766e">Server</text>
+  <text x="490" y="140" text-anchor="middle" font-size="16" fill="#1f2937">Django App</text>
+  <text x="490" y="166" text-anchor="middle" font-size="14" fill="#1f2937">URL -> View -> Template</text>
+
+  <rect x="690" y="90" width="230" height="120" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="805" y="130" text-anchor="middle" font-size="24" font-weight="700" fill="#166534">Database</text>
+  <text x="805" y="160" text-anchor="middle" font-size="16" fill="#1f2937">PostgreSQL / SQLite</text>
+
+  <line x1="290" y1="120" x2="375" y2="120" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="333" y="106" text-anchor="middle" font-size="13" fill="#1f2937">HTTP Request</text>
+
+  <line x1="375" y1="180" x2="290" y2="180" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="333" y="200" text-anchor="middle" font-size="13" fill="#1f2937">HTTP Response</text>
+
+  <line x1="605" y1="120" x2="690" y2="120" stroke="#0891b2" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="648" y="106" text-anchor="middle" font-size="13" fill="#1f2937">ORM Query</text>
+
+  <line x1="690" y1="180" x2="605" y2="180" stroke="#0891b2" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="648" y="200" text-anchor="middle" font-size="13" fill="#1f2937">Data / Result</text>
+</svg>
